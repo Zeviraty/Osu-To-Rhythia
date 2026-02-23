@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='osutorythia',
+    name='OsuToRythia',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
