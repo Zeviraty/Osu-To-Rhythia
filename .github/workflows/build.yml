@@ -83,7 +83,7 @@ jobs:
 
       - name: Package output (Windows)
         if: matrix.os == 'windows-latest'
-        run: 7z a OsuToRythia-windows.zip dist/OsuToRythia/*
+        run: 7z a OsuToRythia-windows.zip ./dist/*
 
       - name: Package output (Linux)
         if: matrix.os == 'ubuntu-latest'
